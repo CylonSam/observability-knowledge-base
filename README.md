@@ -26,3 +26,7 @@ With **monitoring** you can say what the fuck happened, if your app is slow, usi
 "Observability" is a tech term, but it's directly related to the following meaning of "observe":
 
 >_"to watch carefully especially with attention to details or behavior for the purpose of arriving at a judgment."_ (Merriam-Webster)
+
+## Core
+
+1. [Observability](/core/observability.md)
