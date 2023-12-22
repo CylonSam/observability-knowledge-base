@@ -33,6 +33,28 @@ Overall, metrics are a fundamental component of observability, enabling you to g
 
 ## Events
 
+Formal definition of event:
+
+>_a thing that happens, especially one of importance._ (Oxford Languages)
+
+Events are things that happen inside your app ecosystem that are relevant enough to be stored.
+
+Let's check what bard has to say about events in the context of observability:
+
+_"Events are discrete occurrences within a system that are significant enough to be recorded. They represent specific moments in time with associated data that helps understand what happened and why. Think of them as checkpoints or milestones in the system's operation."_ (Google Bard)
+
+Interesting!
+
+**Examples of Events**:
+
+- User Interactions: Clicks, form submissions, and other user actions can be captured as events.
+- System State Changes: Events can signify changes in the state of a system, such as the start or stop of a service.
+- Error Events: Events are often used to capture information about errors or exceptions that occur in the system.
+- Security Events: Events can include security-related information, such as login attempts or access control events.
+
+### Insights
+- When you have a system that consists of a pipeline of many microservices, maybe you'll want to know if some data left service A (event 1) and was received by a service B (event 2), so that you can track the flow of input data through your system.
+
 ## Logs
 
 ## Traces
